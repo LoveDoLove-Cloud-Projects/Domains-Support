@@ -114,7 +114,7 @@
 
 **端点**: `/api/check`
 **方法**: POST
-**认证**: 需要 API Token（通过 URL 参数或 Bearer Token）
+**认证**: 需要 API Token（通过 Bearer Token）
 
 **请求体 (JSON)**:
 当使用 `POST` 方法时，请求体必须为 JSON 格式，包含一个 `domains` 数组。
